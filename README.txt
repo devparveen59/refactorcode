@@ -42,3 +42,34 @@ OR
 Thank you!
 
 
+==============================Parveen's Observations========================================================
+
+Hi,
+
+I have checked and refactored the code. Here are my observations and modifications:
+
+Code Duplication:
+I removed multiple duplicated lines of code by extracting common functionality into separate blocks. This makes the code cleaner and easier to maintain.
+
+Code Reusability:
+I structured the code into reusable blocks, each responsible for a specific task. This improves modularity and makes it easier to extend or modify functionality in the future.
+
+Keeping Sensitive Data Safe:
+I implemented private functions to access user roles, ensuring that sensitive information is securely handled and not exposed unnecessarily.
+
+Divide Code into Smaller Parts:
+To improve readability and manageability, I divided the code into smaller, more focused chunks. This makes it easier to understand and maintain.
+
+Removed Unused Variables and Queries:
+I eliminated unused variables and redundant database queries to optimize memory usage and improve performance.
+
+Logic Adjustments:
+I made adjustments to the logic of the code where necessary to enhance efficiency and clarity.
+
+Removed Unwanted Namespaces:
+I removed unnecessary namespaces to declutter the code and improve readability.
+
+Note: I added status codes as responses in the current files. However, I'm unsure about the specific response format used by the views or the requester who calls these functions. We may need to adjust this based on the requirements of the consuming end.
+
+Thanks
+Parveen
